@@ -39,7 +39,7 @@ nav li a {
 
 nav li a:hover {
 	border-bottom: 3px solid #000;
-	color: #000;
+	color: inherit;
 }
 
 main {
