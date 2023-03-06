@@ -7,8 +7,9 @@ body {
 }
 
 header {
-	background-color: #000;
+	background-color: #fff;
 	color: #fff;
+	text-align: center;
 }
 
 nav ul {
@@ -16,6 +17,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	background-color: #fff;
 }
 
 nav li {
@@ -28,10 +30,13 @@ nav li a {
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
+	border-bottom: 2px solid transparent;
 }
 
 nav li a:hover {
 	background-color: #555;
+	color: #fff;
+	border-bottom: 2px solid #fff;
 }
 
 main {
