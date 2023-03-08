@@ -9,7 +9,7 @@ body {
 
 img {
 	filter: grayscale(100%);
-	width: 60px;
+	width: 200px;
 	height: auto;
 }
 
@@ -46,7 +46,8 @@ a:hover {
 /* Navigation bar */
 nav {
 	display: flex;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
+	justify-content: center;
 	align-items: center;
 	height: 100%;
 	color: #000;
@@ -62,6 +63,7 @@ nav ul {
 	overflow: hidden;
 	align-items: center;
 	text-align: center;
+	justify-content: center;
   }
   
   nav li {
