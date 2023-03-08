@@ -30,7 +30,9 @@ a:visited {
 }
 
 a:hover {
-	color: red;
+	color: inherit;
+	text-decoration: underline;
+	text-decoration-color: rgb(54, 128, 152);
 }
 
 /* Navigation bar */
@@ -51,19 +53,52 @@ nav li {
 }
 
 nav a {
-	display: block;
-	padding: 15px;
-	color: #000;
-	font-size: 18px;
-	text-align: center;
-	text-decoration: none;
-	border-bottom: 0 solid transparent;
-	transition: border-width 0.2s ease-in-out;
+    display: block;
+    padding: 15px;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease-in-out;
+    position: relative;
 }
 
 nav a:hover {
-	border-bottom: 3px solid #000;
-	color: inherit;
+    border-bottom-color: #000;
+}
+
+nav a:hover::before,
+nav a:hover::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: all 0.2s ease-in-out;
+}
+
+nav a:hover::before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav a:hover::after {
+    right: 50%;
+    transform: translateX(50%);
+}
+
+/* Two column view */
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column {
+	flex: 1;
+	padding: 10px;
+	box-sizing: border-box;
 }
 
 /*** Main content styles ***/
