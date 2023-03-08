@@ -43,47 +43,24 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #fff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-/* Navigation links */
-nav li {
+	background-color: #f2f2f2;
+  }
+  
+  nav li {
 	float: left;
-	margin: 0 10px;
-}
-
-nav a {
-    position: relative;
-	padding: 10px;
-}
-
-nav a:hover {
-    text-decoration: none;
-}
-
-nav a:hover::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -2px;
-    height: 2px;
-    background-color: #000;
-}
-
-nav a:hover::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -2px;
-    height: 2px;
-    background-color: transparent;
-}
-
+  }
+  
+  nav a {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+  }
+  
+  nav a:hover {
+	color: #000;
+	border-bottom: 2px solid #000;
+  }
+  
 
 /* Two column view */
 .row {
