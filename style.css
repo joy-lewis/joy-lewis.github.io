@@ -63,11 +63,11 @@ nav ul {
 	overflow: hidden;
 	align-items: center;
 	text-align: center;
-	/*justify-content: center;*/
+	justify-content: center;
   }
   
   nav li {
-	margin-right: 20px;
+	margin-right: 0;
   }
   
   nav a.nav-link {
