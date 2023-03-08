@@ -64,6 +64,7 @@ nav ul {
 	align-items: center;
 	text-align: center;
 	justify-content: center;
+	margin-right: 15px;
   }
   
   nav li {
@@ -73,7 +74,7 @@ nav ul {
   nav a.nav-link {
 	display: inline-block;
 	padding: 15px;
-	margin-right: 10px !important;
+	margin-right: 10px;
 	text-decoration: none;
 	color: #000
   }
