@@ -9,6 +9,8 @@ body {
 
 img {
 	filter: grayscale(100%);
+	width: 60px;
+	height: auto;
 }
 
 /* Header styles */
@@ -58,6 +60,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	align-items: center;
 	text-align: center;
   }
   
