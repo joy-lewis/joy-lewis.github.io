@@ -25,7 +25,7 @@ footer {
 /* Link styles */
 a:link,
 a:visited {
-	color: black;
+	color: rgb(54, 128, 152);
 	text-decoration: none;
 }
 
@@ -57,7 +57,8 @@ nav a {
 	font-size: 18px;
 	text-align: center;
 	text-decoration: none;
-	border-bottom: 2px solid transparent;
+	border-bottom: 0 solid transparent;
+	transition: border-width 0.2s ease-in-out;
 }
 
 nav a:hover {
@@ -70,10 +71,20 @@ main {
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 50px;
+	display: flex;
 }
 
-section {
-	margin-top: 50px;
+#About{
+	flex-direction: row;
+}
+
+#left-column {
+	flex-basis: 50%;
+	margin-right: 20px;
+}
+
+#right-column {
+	flex-basis: 50%;
 }
 
 h1 {
