@@ -52,10 +52,12 @@ nav ul {
 /* Navigation links */
 nav li {
 	float: left;
+	margin: 0 10px;
 }
 
 nav a {
     position: relative;
+	padding: 10px;
 }
 
 nav a:hover {
