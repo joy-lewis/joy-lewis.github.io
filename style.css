@@ -7,6 +7,10 @@ body {
 	color: #000;
 }
 
+img {
+	filter: grayscale(100%);
+}
+
 /* Header styles */
 header {
 	background-color: #fff;
