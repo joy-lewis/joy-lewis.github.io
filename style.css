@@ -66,6 +66,7 @@ nav a {
 }
 
 nav a:hover {
+	text-decoration: none;
     border-bottom: 2px solid #000;
 }
 
@@ -76,7 +77,7 @@ nav a:hover::after {
     bottom: -2px;
     width: 0;
     height: 2px;
-    background-color: #000;
+    background-color: transparent;
     transition: all 0.2s ease-in-out;
 }
 
