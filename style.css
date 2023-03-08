@@ -30,10 +30,12 @@ a:visited {
 }
 
 a:hover {
-	color: inherit;
 	text-decoration: underline;
 	text-decoration-color: rgb(54, 128, 152);
-}
+	text-decoration-thickness: 0.1em;
+	vertical-align: text-bottom;
+	margin-bottom: -0.2em; /* half of the distance you want to move the underline */
+  }
 
 /* Navigation bar */
 nav ul {
@@ -59,13 +61,12 @@ nav a {
     font-size: 18px;
     text-align: center;
     text-decoration: none;
-    border-bottom: 2px solid transparent;
     transition: all 0.2s ease-in-out;
     position: relative;
 }
 
 nav a:hover {
-    border-bottom-color: #000;
+    border-bottom: 2px solid #000;
 }
 
 nav a:hover::before,
