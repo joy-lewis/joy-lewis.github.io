@@ -51,7 +51,7 @@ nav a:hover {
 a:hover {
 	color: rgb(54, 128, 152);
 	text-decoration: underline;
-	text-decoration-color: rgb(54, 128, 152);
+	/*text-decoration-color: rgb(54, 128, 152);*/
 	text-decoration-thickness: 0.1em;
 	vertical-align: text-bottom;
 	margin-bottom: -0.2em;
