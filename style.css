@@ -31,17 +31,35 @@ footer {
 /* Link styles */
 a:link,
 a:visited {
-	color: rgb(54, 128, 152);
 	text-decoration: none;
 }
 
+nav a:link,
+nav a:visited {
+	color: #000;
+}
+
+nav a:hover {
+	color: #000;
+	text-decoration: underline;
+	text-decoration-color: #000;
+	text-decoration-thickness: 0.1em;
+	vertical-align: text-bottom;
+	margin-bottom: -0.2em;
+}
+
 a:hover {
+	color: rgb(54, 128, 152);
 	text-decoration: underline;
 	text-decoration-color: rgb(54, 128, 152);
 	text-decoration-thickness: 0.1em;
 	vertical-align: text-bottom;
-	margin-bottom: -0.2em; /* half of the distance you want to move the underline */
-  }
+	margin-bottom: -0.2em;
+}
+
+.hyperlinks {
+	color: rgb(54, 128, 152);
+}
 
 /* Navigation Bar*/
 nav {
@@ -72,55 +90,6 @@ nav a {
 	text-decoration: none;
 	color: #000;
 }
-
-nav a:hover {
-	color: #000;
-	border-bottom: 2px solid #000;
-}
-
-/* Navigation bar */
-/* OLD NAVIGATION BAR
-nav {
-	display: flex;
-	justify-content: space-between;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	color: #000;
-	padding: 10px;
-	background-color: #f2f2f2;
-}
-
-nav ul {
-	display: flex;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	align-items: center;
-	text-align: center;
-	justify-content: center;
-	margin-right: 15px;
-  }
-  
-  nav li {
-	margin-right: 0;
-  }
-  
-  nav a.nav-link {
-	display: inline-block;
-	padding: 15px;
-	margin-right: 10px;
-	text-decoration: none;
-	color: #000
-  }
-  
-  nav a.nav-link:hover {
-	color: #000;
-	border-bottom: 2px solid #000;
-  } 
-
-  */
 
 /* Two column view */
 .row {
