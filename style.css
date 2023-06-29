@@ -13,6 +13,12 @@ img {
 	height: auto;
 }
 
+.icon {
+    height: 5mm;
+    width: 5mm;
+	vertical-align: middle;
+}
+
 /* Header styles */
 header {
 	background-color: #fff;
